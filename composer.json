@@ -1,29 +1,31 @@
 {
-    "name": "dilab/omnipay-ipay88",
-    "description": "iPay88 gateway for Omnipay payment processing library",
-    "keywords": [
-        "gateway",
-        "merchant",
-        "omnipay",
-        "ipay88"
-    ],
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "xu ding",
-            "email": "thedilab@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "omnipay/common": "3.0-beta.1",
-        "php-http/guzzle6-adapter": "^1.1"
-    },
-    "require-dev": {
-        "omnipay/tests": "3.0-beta.1"
-    },
-    "autoload": {
-        "psr-4": { "Omnipay\\IPay88\\" : "src/" }
+  "name": "dilab/omnipay-ipay88",
+  "description": "iPay88 gateway for Omnipay payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "ipay88"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xu ding",
+      "email": "thedilab@gmail.com"
     }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "omnipay/common": "3.0.1",
+    "php-http/guzzle6-adapter": "^1.1"
+  },
+  "require-dev": {
+    "omnipay/tests": "3.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\IPay88\\": "src/"
+    }
+  }
 }
