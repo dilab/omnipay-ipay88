@@ -18,7 +18,7 @@ class PurchaseRequest extends AbstractRequest
             'ProdDesc' => $this->getDescription(),
             'UserName' => $this->getCard()->getBillingName(),
             'UserEmail' => $this->getCard()->getEmail(),
-            'UserContact' => $this->getCard()->getNumber(),
+            'UserContact' => $this->getCard()->getBillingPhone(),
             'Remark' => '',
             'Lang' => 'UTF-8',
             'SignatureType' => 'SHA256',
